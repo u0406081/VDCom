@@ -1,4 +1,4 @@
-package com.example.vdcom_testtask;
+package com.example.vdcom_testtask.secondTask;
 
 import org.springframework.util.ResourceUtils;
 
@@ -15,7 +15,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class SecondTask {
-    private static final Path PATH = Paths.get( "src/main/java/com/example/vdcom_testtask/out.txt");
+    private static final Path PATH = Paths.get( "src/main/java/com/example/vdcom_testtask/secondTask/out.txt");
     private static final String OLD_VALUE = "Старое значение:";
     private static final String NEW_VALUE = "новое значение:";
     private static final String SPACE = " ";

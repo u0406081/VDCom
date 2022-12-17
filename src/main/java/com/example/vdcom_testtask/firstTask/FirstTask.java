@@ -1,4 +1,4 @@
-package com.example.vdcom_testtask;
+package com.example.vdcom_testtask.firstTask;
 
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
